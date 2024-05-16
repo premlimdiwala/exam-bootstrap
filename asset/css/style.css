@@ -1,0 +1,123 @@
+body{
+  font-family: 'Jost' !important;
+}
+.fa-bars-staggered{
+    color: #bb9d7b;
+}
+ul>li>a:hover{
+    color: #bb9d7b !important;
+}
+ul>li>a>i:hover{
+    color: #bb9d7b !important;
+}
+.watch-card:hover .card-img>img{
+    scale: 1.1;
+}
+.watch-card:hover .card-img-cross>img{
+    scale: 1.1;
+}
+.card-img{
+    transition: all 1s linear !important;
+}
+.watch-card:hover .card-img{
+    display: none;
+}
+.card-img-cross{
+    transition: all 1s linear !important;
+}
+.watch-card:hover .card-img-cross{
+    display: block !important;
+}
+.card-body h2{
+    font-size: 28px;    
+}
+.card-body{
+    bottom: -44px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s linear;    
+}
+.card-body button{
+    transition: all 0.3s linear;
+    font-size: 20px;
+    background-color: #bb9d7b;
+    border: none;
+}
+.card:hover{
+    border: 2px solid #bb9d7b !important;
+    border-radius: 20px !important;
+}
+.watch-card:hover .card-body h5,.watch-card:hover .card-body h2{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500 !important;    
+}
+.card:hover .card-body{
+    bottom: 44px !important;
+    border: 2px solid #d7bfa4 !important;
+    border-radius: 25px;
+    background-color: #e3b27a87;    
+}
+.card:hover .card-body button{
+   display: block !important;
+   border-radius: 10px;
+   font-size: 20px !important;
+}
+.card-body button:hover{
+    background-color: #da7f18;
+}
+.watch-card{
+    transition: all 0.3s linear !important;
+    background: url(../images/watch-shop-2.webp);
+    height: 500px !important;
+    background-size: cover;
+}
+.watch-card:hover{
+    background: url(../images/watch-shop-2-1.webp);
+    background-size: cover;
+}
+.watch-card-2{
+    transition: all 0.3s linear !important;
+    background: url(../images/watch-shop-3.webp);
+    height: 500px !important;
+    background-size: cover;
+}
+.watch-card-2:hover{
+    background: url(../images/watch-shop-3-1.webp);
+    background-size: cover;
+}
+.watch-card-3{
+    transition: all 0.3s linear !important;
+    background: url(../images/watch-shop-5.webp);
+    height: 500px !important;
+    background-size: cover;
+}
+.watch-card-3:hover{
+    /* background: url(/asset/images/watch-shop-5-1.webp); */
+    background: url(../images/watch-shop-5-1.webp);
+    background-size: cover;
+}
+.time{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:10px ;
+    background-color: #da7f18;
+    top: 15px;
+    left: 15px;    
+}
+.card:hover .time{
+    display: block !important;
+}
+.accordion-item .accordion-header button:hover{
+    background-color: #bb9d7b !important;
+    color: black;
+    font-weight: 600;
+}
+.accordion-item .accordion-header button{
+    background-color: #928e8a!important;
+    color: white;
+    font-weight: 600;
+}
+.accordion-collapse ul li{
+    font-size: 28px;
+    color: #da7f18 !important;
+}
